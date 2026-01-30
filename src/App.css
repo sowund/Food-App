@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+
+/* Food Card Styling */
+/* Grid */
+.food-grid {
+  display: flex;
+  justify-content: center;
+}
+
+/* Card Size */
+.food-card {
+  width: 320px;
+  height: 480px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+/* Image */
+.food-image {
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Card Body */
+.food-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+/* Title */
+.food-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Controls */
+.food-controls select,
+.food-controls textarea {
+  font-size: 13px;
+}
+
+.food-controls button {
+  font-size: 13px;
+}
+
+/* Reviews scroll */
+.review-box {
+  margin-top: auto;
+  max-height: 90px;
+  overflow-y: auto;
+  font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .food-card {
+    width: 280px;
+    height: 440px;
+  }
+}
+
+@media (max-width: 576px) {
+  .food-card {
+    width: 100%;
+  }
+}
+.filter-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.filter-modal {
+  background: #fff;
+  width: 340px;
+  padding: 22px;
+  border-radius: 12px;
+
+  /* ✅ Shadow effect */
+  box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.25),
+    0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.filter-modal {
+  animation: popIn 0.25s ease;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":"Idly",
+        "price": 20,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/c48a3f09a47dfdb8cdfec76370d48e7d",
+        "rating": 3.5,
+        "category": "veg"
+    },
+    {
+        "id": 2,
+        "name":"Dosa",
+        "price": 30,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/nxbcrmllfbzrwmsngzsh",
+        "rating": 2.6,
+        "category": "non-veg"
+
+    },
+    {
+        "id": 3,
+        "name":"Vada",
+        "price": 25,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/720b082703d4ac68f967f0fde85d6148",
+        "rating": 4.0,
+        "category": "veg"
+    },
+    {
+        "id": 4,
+        "name":"Pongal",
+        "price": 35,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/1/4706cd8f-2210-47c3-8391-3aacb864226a_51d6df5f-e759-4320-b65b-5ba7dbffee99.jpg_compressed",
+        "rating": 1.8,
+        "category": "non-veg"
+    },
+    {
+        "id": 5,
+        "name":"Uttapam",
+        "price": 40,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/x6bkq6lxtluckyhniagh",
+        "rating": 3.9,
+        "category": "veg"
+    },
+    {
+        "id": 6,
+        "name":"Chapati",
+        "price": 15,
+        "image": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/1/8bae4462-fb3b-48ae-90a4-7502a56c4066_ba6dce0b-90c3-4566-b723-3eb260ee98f6.jpg_compressed",
+        "rating": 4.2,
+        "category": "veg"
+    }
+]
